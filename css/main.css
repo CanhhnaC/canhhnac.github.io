@@ -116,6 +116,7 @@ hr {
     from {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -125,6 +126,7 @@ hr {
     from {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -139,6 +141,7 @@ hr {
     from {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -148,6 +151,7 @@ hr {
     from {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -163,11 +167,13 @@ hr {
         -webkit-transform: translateY(100%);
         transform: translateY(100%)
     }
+
     35%,
     65% {
         -webkit-transform: translateY(0);
         transform: translateY(0)
     }
+
     100% {
         -webkit-transform: translateY(-100%);
         transform: translateY(-100%)
@@ -179,11 +185,13 @@ hr {
         -webkit-transform: translateY(100%);
         transform: translateY(100%)
     }
+
     35%,
     65% {
         -webkit-transform: translateY(0);
         transform: translateY(0)
     }
+
     100% {
         -webkit-transform: translateY(-100%);
         transform: translateY(-100%)
@@ -195,11 +203,13 @@ hr {
         -webkit-transform: translateY(-100%);
         transform: translateY(-100%)
     }
+
     35%,
     65% {
         -webkit-transform: translateY(0);
         transform: translateY(0)
     }
+
     100% {
         -webkit-transform: translateY(100%);
         transform: translateY(100%)
@@ -211,11 +221,13 @@ hr {
         -webkit-transform: translateY(-100%);
         transform: translateY(-100%)
     }
+
     35%,
     65% {
         -webkit-transform: translateY(0);
         transform: translateY(0)
     }
+
     100% {
         -webkit-transform: translateY(100%);
         transform: translateY(100%)
@@ -571,6 +583,7 @@ hr {
         -webkit-transform: translateX(0);
         transform: translateX(0)
     }
+
     to {
         -webkit-transform: translateX(75px);
         transform: translateX(75px)
@@ -582,6 +595,7 @@ hr {
         -webkit-transform: translateX(0);
         transform: translateX(0)
     }
+
     to {
         -webkit-transform: translateX(75px);
         transform: translateX(75px)
@@ -597,12 +611,15 @@ hr {
     .lightbox-wrapper .lightbox-content .single-section:not(:last-child) {
         margin-bottom: 100px
     }
+
     .lightbox-wrapper .lightbox-content .section-heading>.section-title {
         font-size: 36px
     }
+
     .lightbox-wrapper .lightbox-content .section-heading>.section-description {
         font-size: 14px
     }
+
     .lightbox-wrapper .lightbox-content .section-heading.page-heading>.section-title {
         font-size: 42px
     }
@@ -618,6 +635,7 @@ hr {
     .lightbox-wrapper .lightbox-content .section-heading>.section-title {
         font-size: 34px
     }
+
     .lightbox-wrapper .lightbox-content .section-heading.page-heading>.section-title {
         font-size: 36px
     }
@@ -666,12 +684,14 @@ hr {
 }
 
 @-webkit-keyframes grow {
+
     0%,
     100%,
     40% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -679,12 +699,14 @@ hr {
 }
 
 @keyframes grow {
+
     0%,
     100%,
     40% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -731,6 +753,7 @@ hr {
     .navbar .navbar-brand img {
         width: 90px
     }
+
     .navbar .navbar-menu {
         -ms-flex-direction: column;
         -ms-flex-pack: justify;
@@ -743,6 +766,7 @@ hr {
         position: relative;
         width: 30px
     }
+
     .navbar .navbar-menu .btn-line,
     .navbar .navbar-menu:after,
     .navbar .navbar-menu:before {
@@ -752,21 +776,26 @@ hr {
         height: 3px;
         width: 100%
     }
+
     .navbar .navbar-menu:before {
         content: '';
         width: 85%
     }
+
     .navbar .navbar-menu:after {
         content: ''
     }
+
     .navbar .navbar-menu .btn-line {
         width: 55%
     }
+
     .navbar .navbar-menu .btn-line,
     .navbar .navbar-menu:after,
     .navbar .navbar-menu:before {
         background-color: #f3f3f3
     }
+
     .navbar .navbar-collapse .navbar-nav {
         background-color: #191919;
         padding: 8px 20px;
@@ -775,12 +804,14 @@ hr {
         width: 200px;
         z-index: 2
     }
+
     .navbar .navbar-collapse .navbar-nav .nav-link {
         color: rgba(255, 255, 255, .7);
         font-size: 14px;
         letter-spacing: .35px;
         padding: 7px 0
     }
+
     .navbar .navbar-collapse .navbar-nav .nav-link:focus,
     .navbar .navbar-collapse .navbar-nav .nav-link:hover {
         color: #fff
@@ -915,6 +946,7 @@ hr {
     .home-area .home-name {
         font-size: 62px
     }
+
     .home-area .home-headline {
         font-size: 30px
     }
@@ -930,9 +962,11 @@ hr {
     .home-area {
         background-position: 62% center
     }
+
     .home-area .home-name {
         font-size: 48px
     }
+
     .home-area .home-headline {
         font-size: 26px
     }
@@ -1031,18 +1065,23 @@ hr {
         height: 440px;
         object-fit: cover
     }
+
     #about .info-section .info-content .content-subtitle {
         display: none
     }
+
     #about .info-section .info-content .content-title {
         font-size: 26px
     }
+
     #about .info-section .info-content .content-description {
         font-size: 14px
     }
+
     #about .info-section .info-content .content-description p:last-child {
         padding-bottom: 20px
     }
+
     #about .info-section .info-content .content-info {
         font-size: 14px;
         padding: 20px 0
@@ -1059,18 +1098,23 @@ hr {
         object-fit: cover;
         width: 250px
     }
+
     #about .info-section .info-content .content-subtitle {
         font-size: 18px
     }
+
     #about .info-section .info-content .content-title {
         font-size: 26px
     }
+
     #about .info-section .info-content .content-description {
         font-size: 14px
     }
+
     #about .info-section .info-content .content-description p:last-child {
         padding-bottom: 24px
     }
+
     #about .info-section .info-content .content-info {
         font-size: 14px;
         margin-bottom: 0;
@@ -1083,9 +1127,11 @@ hr {
         height: 200px;
         width: 200px
     }
+
     #about .info-section .info-content .content-info>.row:last-child .single-info {
         margin-bottom: 10px
     }
+
     #about .info-section .info-content .content-info .single-info {
         display: block;
         margin-bottom: 10px;
@@ -1097,15 +1143,19 @@ hr {
     #about .info-section {
         padding-bottom: 51px
     }
+
     #about .info-section .info-img img {
         margin: 0 auto 32px auto
     }
+
     #about .info-section .info-content .content-subtitle {
         font-size: 18px
     }
+
     #about .info-section .info-content .content-title {
         font-size: 22px
     }
+
     #about .info-section .info-content .content-download {
         margin-bottom: 27px
     }
@@ -1206,12 +1256,15 @@ hr {
     #about .testimonials-section .single-review {
         padding: 45px 40px
     }
+
     #about .testimonials-section .single-review .review-client .client-avatar {
         width: 50px
     }
+
     #about .testimonials-section .single-review .review-client .client-role {
         font-size: 13px
     }
+
     #about .testimonials-section .single-review .review-icon {
         display: inline-block;
         font-size: 47px
@@ -1342,14 +1395,17 @@ hr {
     #resume .resume-section .resume-item {
         padding-right: 20px
     }
+
     #resume .resume-section .col-block.education,
     #resume .resume-section .col-block.experience {
         margin-left: 0;
         margin-right: 0
     }
+
     #resume .resume-section .col-12:last-child .resume-item:last-child {
         margin-bottom: 0
     }
+
     #resume .resume-section .col-12:first-child .resume-item:last-child {
         margin-bottom: 60px
     }
@@ -1392,6 +1448,7 @@ hr {
     #resume .skills-section .single-skill:not(:last-child) {
         margin-bottom: 40px !important
     }
+
     #resume .skills-section [class*=col-]:not(:last-child) .single-skill {
         margin-bottom: 40px !important
     }
@@ -1461,6 +1518,7 @@ hr {
         font-size: 30px;
         margin-bottom: 13px
     }
+
     #resume .video-section .content-part .video-description {
         font-size: 15px
     }
@@ -1476,6 +1534,7 @@ hr {
     #resume .video-section .content-part .video-title {
         font-size: 28px
     }
+
     #resume .video-section .content-part .video-description {
         font-size: 14px
     }
@@ -1625,6 +1684,7 @@ hr {
     #blog .blog-section .single-post {
         margin-bottom: 40px
     }
+
     #blog .blog-section .single-post .post-content .content-title {
         font-size: 20px
     }
@@ -1795,6 +1855,7 @@ hr {
     #contact .contact-section .contact-form {
         margin-bottom: 45px
     }
+
     #contact .contact-section .contact-info {
         padding-left: 0
     }

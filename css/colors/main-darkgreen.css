@@ -226,6 +226,13 @@ a:not(.btn):hover {
     background-color: #009e66
 }
 
+nav .navbar-nav .nav-link:hover,
+#home .fixed-block .list-unstyled i:hover,
+#home .fixed-block span:hover {
+    color: #009e66 !important;
+}
+
+
 #about .info-section .info-content .content-subtitle {
     color: #009e66
 }
